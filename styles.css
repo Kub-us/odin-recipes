@@ -4,13 +4,53 @@ body {
 
 #heading {
     text-align: center;
-    background-color: rgb(163, 36, 61);
+    background-color: #a3243d;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    border: solid black;
 }
 
-.link {
+div {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 800;
-    text-align: left;
+    font-weight: bold;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+.links {
+    text-align: center;
+}
+
+.chicken {
+    float:left;
+    width:180px;
+    height:180px;
+    background-color:#a3243d;
+    color: black;
+    border:solid black;
+    margin-right: 90px;
+    line-height: 180px;
+}
+
+.schab {
+    float:left;
+    width:180px;
+    height:180px;
+    background-color:#a3243d; 
+    color: black;
+    border:solid black;
+    line-height: 180px;
+}
+
+.eggs {
+    float:right;
+    width:180px;
+    height:180px;
+    background-color:#a3243d;
+    color: black;
+    border:solid black;
+    line-height: 180px;
 }

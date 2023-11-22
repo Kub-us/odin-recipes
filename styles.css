@@ -21,36 +21,41 @@ a {
 }
 
 .links {
+    display: flex;
     text-align: center;
 }
 
 .chicken {
-    float:left;
     width:180px;
     height:180px;
     background-color:#a3243d;
     color: black;
     border:solid black;
-    margin-right: 90px;
+    margin: auto;
     line-height: 180px;
 }
 
 .schab {
-    float:left;
     width:180px;
     height:180px;
     background-color:#a3243d; 
     color: black;
     border:solid black;
+    margin: auto;
     line-height: 180px;
 }
 
 .eggs {
-    float:right;
     width:180px;
     height:180px;
     background-color:#a3243d;
     color: black;
     border:solid black;
     line-height: 180px;
+    margin: auto;
+}
+
+* {
+    border: 1px;
+    border-color: aqua;
 }
